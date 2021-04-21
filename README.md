@@ -21,6 +21,7 @@ rchat -h
 - `rchat init`
     - One time setup for rocket chat access, domain, username and password is required.
     - Username can be either email of rchat user name.
+    - Your user name and password is not saved, the token generated from the credentials is encoded and saved in local file, which you can delete by `rm ~/.rchat-config`
 
 - `rchat update-status --status online|busy|away|offline {{status message}}`
     - This will update the status message and the status of the user.
